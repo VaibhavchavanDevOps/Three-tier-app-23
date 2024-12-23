@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseServerUrl:'http://backend-service:30001'
+  baseServerUrl:'http://34.46.134.223:81'
 };
