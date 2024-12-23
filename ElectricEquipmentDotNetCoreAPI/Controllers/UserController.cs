@@ -45,6 +45,8 @@ namespace ElectricEquipmentDotNetCoreProject.Controllers
                 _context.Users.Add(user);
                 _context.SaveChanges();
                 return Ok(userToken);
+                // return Ok ("User added successfully");
+
             }
             catch (Exception ex)
             {
